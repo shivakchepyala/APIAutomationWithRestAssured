@@ -1,15 +1,10 @@
 package practice;
 
-import org.testng.Assert;
-import org.testng.annotations.Test;
-
-import static io.restassured.RestAssured.*;
-import io.restassured.response.Response;
-
-import static io.restassured.matcher.RestAssuredMatchers.*;
-import static org.hamcrest.Matchers.*;
+import static io.restassured.RestAssured.baseURI;
+import static io.restassured.RestAssured.given;
 
 import org.json.simple.JSONObject;
+import org.testng.annotations.Test;
 
 
 public class PostTest {
